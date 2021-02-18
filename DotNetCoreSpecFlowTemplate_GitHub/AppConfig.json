@@ -1,0 +1,11 @@
+﻿{
+  "bindingCulture": { "language": "en-us" },
+  "language": { "feature": "en-us" },
+  "DefaultUrl": "http://google.com/",
+  "UserName": "",
+  "Password": "",
+  // chrome //  IE  // firefox  // chromeHeadless
+  "Browser": "chrome",
+  "DatabaseConnectionString": "data source=862.20.83.784;Initial Catalog=Databasename;User Id=user;Password=pass"
+
+}
