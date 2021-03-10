@@ -3,8 +3,8 @@ RUN apt-get update
 
 #Install Google Chrome
 #Check available versions here: https://www.ubuntuupdates.org/package/google_chrome/stable/main/base/google-chrome-stable
-ARG CHROME_VERSION="84.0.4147.89-1"
-ARG CHROMEDRIVER_VERSION="84.0.4147.3001"
+ARG CHROME_VERSION="88.0.4324.182-1"
+ARG CHROMEDRIVER_VERSION="88.0.4324.9600"
 
 RUN wget --no-verbose -O /tmp/chrome.deb http://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb \
   && apt install -y /tmp/chrome.deb \
