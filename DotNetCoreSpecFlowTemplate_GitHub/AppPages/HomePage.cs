@@ -14,7 +14,7 @@ namespace DotNetCoreSpecFlowTemplate.AppPages
         }
 
         
-        [FindsBy(How = How.Id, Using = "realbox")]
+        [FindsBy(How = How.Id, Using = "APjFqb")]
         public IWebElement SearchBar { get; set; }
         public string Title = "Google";
     }

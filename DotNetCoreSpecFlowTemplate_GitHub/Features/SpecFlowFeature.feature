@@ -23,7 +23,7 @@ Background: Landing home page
 
 
 @tc1251  
-Scenario Outline: As a user I should see section headers at the home page
+Scenario: As a user I should see section headers at the home page
 					
 	When I search the any "<item>"
 	Then I should see a result containing "<item>"
